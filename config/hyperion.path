@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitor a path for SPI mount needed by hyperion service
+
+[Path]
+PathExists=/dev/spidev0.0
+
+[Install]
+WantedBy=multi-user.target
